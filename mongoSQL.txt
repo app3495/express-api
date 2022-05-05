@@ -1,0 +1,16 @@
+// to create database called travel
+use travel;
+
+// To create collection called records
+db.createCollection("records"); 
+
+// To input data
+db.records.insert([           
+{name: "Bobo", nrc: "A0131", from: "Yangon", to: "Mandalay", with: "5B9876"},
+{name: "Nini", nrc: "A1476", from: "Yangon", to: "Bago",	 with: "3G6457"},
+{name: "Coco", nrc: "B0487", from: "Bago",	 to: "Yangon",	 with: "4L2233"},
+{name: "Mimi", nrc: "C1987", from: "Yangon", to: "Mandalay", with: "9E4343"},
+{name: "Nono", nrc: "B0098", from: "Bago",	 to: "Yangon",	 with: "4L2233"},
+{name: "Momo", nrc: "C0453", from: "Yangon", to: "Bago",	 with: "3G6457"},
+]);   
+
